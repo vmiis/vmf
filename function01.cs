@@ -118,4 +118,9 @@ public static string table_owner(Dictionary<string, object> input, string user){
     return owner;
 }
 //-----------------------------------------------------------------------------------------------------------
+public static void test(Dictionary<string, object> input,Dictionary<string, object> output,string user){
+    output["bbb"]="abc";
+	//output["owner"]=table_owner(input,user);
+}
+//-----------------------------------------------------------------------------------------------------------
 }}
